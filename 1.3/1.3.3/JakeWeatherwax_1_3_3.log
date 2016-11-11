@@ -1,0 +1,64 @@
+# IPython log file
+
+%cd "H:\Documents\GitHub\CSP\1.3"
+%cd "H:\Documents\GitHub\CSP\1.3\1.3.3"
+# Thu, 10 Nov 2016 12:52:26
+# Jane Doe John Smith 1.3.3 IPython log
+a = 3
+# Thu, 10 Nov 2016 12:52:35
+a**2
+#[Out]# 9
+# Thu, 10 Nov 2016 12:53:23
+a==3 # boolean expression, also called a conditional
+#[Out]# True
+# Thu, 10 Nov 2016 12:54:00
+a!=3
+#[Out]# False
+# Thu, 10 Nov 2016 12:54:05
+a!=4
+#[Out]# True
+# Thu, 10 Nov 2016 12:54:34
+a>=3
+#[Out]# True
+# Thu, 10 Nov 2016 12:54:49
+a>=1
+#[Out]# True
+# Thu, 10 Nov 2016 12:55:44
+a+1 >= 2 and a**2 != 5
+#[Out]# True
+# Thu, 10 Nov 2016 12:57:37
+# 3a. Prediction
+a**2 >= 9 and not a>3
+#[Out]# True
+# Thu, 10 Nov 2016 12:59:46
+# 3b. Prediction
+a+2 == 5 or a-1 != 3
+#[Out]# True
+# Thu, 10 Nov 2016 13:00:46
+x,y = (65,40)
+# Thu, 10 Nov 2016 13:00:47
+x
+#[Out]# 65
+# Thu, 10 Nov 2016 13:01:41
+50<x and x<80 and 30<=y and y<=45
+#[Out]# True
+# Thu, 10 Nov 2016 13:03:23
+# 4. Compound Conditional
+50>=x and 10>=y
+#[Out]# False
+# Thu, 10 Nov 2016 13:07:37
+100<x and 120<x and 130<y
+#[Out]# False
+# Thu, 10 Nov 2016 13:07:58
+x,y = (90,115)
+# Thu, 10 Nov 2016 13:09:25
+100<x and 120<x and 130<y
+#[Out]# False
+# Thu, 10 Nov 2016 13:10:08
+100<x and 120<x and 40<y
+#[Out]# False
+# Thu, 10 Nov 2016 13:13:12
+40<x and x<130 and 100<y and y<120
+#[Out]# True
+# Thu, 10 Nov 2016 13:21:15
+age_limit_output(10)
