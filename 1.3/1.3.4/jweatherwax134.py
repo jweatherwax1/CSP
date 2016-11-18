@@ -1,3 +1,5 @@
+from __future__ import print_function
+import random
 def food_id(food):
     ''' Returns catorrization of food
     
@@ -35,4 +37,15 @@ def food_id_test():
             
     if works:
         print('food_id passed all tests')
-    return works    
+    return work
+
+def guess_once():
+    secret = random.randint(1,4)
+    print('I have a number between 1 and 4.')
+    guess= int(raw_input('Guess: '))
+    if guess > secret:
+        print('Too high, My number is', secret,'.',sep=' ')
+    if guess < secret:
+        print('Too low, my number is', secret)
+    if guess == secret:
+        print('Right on')
